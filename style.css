@@ -1,0 +1,80 @@
+/* CSS Start */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* For some background styling */
+body{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.XvErhLKEeC_wxa5pC2OD0wHaEV&pid=Api&P=0&w=264&h=156);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+
+.container{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    box-shadow: 8px 8px 8px black;
+ }
+ /* Header part styling */
+ .mediamonkheader{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+ }
+ /* logo styling */
+ .mediamonkheader img{
+     height: 70px;
+     width: 110px;
+     padding: 4px;
+ }
+ /* Button styling */
+ .mediamonkheader .btn{
+     background-color:black;
+     color: white;
+     border-radius: 50%;
+     border: 1px solid black;
+     height: 43px;
+     width: 43px;
+     box-shadow: 4px 4px 4px black;
+     
+ }
+ /* Blink effect on Buttons */
+ #blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+/* Button hover effect */
+ .mediamonkheader .btn:hover{
+     background-color: cornflowerblue;
+     color: black;
+ }
+ hr{
+     height: 5px;
+     background-color: black;
+ }
+ /* Img slider styling */
+ .slider{
+     height: 210px;
+     width: 250px;
+ }
+ /* Img box styling */
+ .img-box img{
+    height: 215px;
+    width: 250px;
+ }
+ /* CSS ends here */
